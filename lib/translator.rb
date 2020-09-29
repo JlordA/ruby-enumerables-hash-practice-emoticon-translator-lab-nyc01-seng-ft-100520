@@ -21,7 +21,7 @@ def get_english_meaning(emoticons, japanese_emoticon)
   emoticons_hash.find do |name, hash|
     #binding.pry
     if hash[:japanese] == japanese_emoticon
-      
+
     end
     name
   end
