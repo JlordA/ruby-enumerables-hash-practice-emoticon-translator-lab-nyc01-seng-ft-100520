@@ -24,6 +24,6 @@ def get_english_meaning(emoticons, japanese_emoticon)
     if hash[:japanese] == japanese_emoticon
      return name
     end
-    return sorry_message
+    #sorry_message
   end
 end
