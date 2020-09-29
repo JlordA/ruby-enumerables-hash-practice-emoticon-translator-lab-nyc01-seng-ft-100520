@@ -16,7 +16,7 @@ def get_japanese_emoticon(emoticons, english_emoticon)
   sorry_message = "Sorry, that emoticon was not found"
   emoticons_hash = load_library(emoticons)
   emoticons_hash.find do |name, hash|
-binding.pry
+#binding.pry
     if hash[:english] == english_emoticon
       return hash[:japanese]
     end
