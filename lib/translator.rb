@@ -26,4 +26,5 @@ def get_english_meaning(emoticons, japanese_emoticon)
     end
     #sorry_message
   end
+  sorry_message
 end
