@@ -10,9 +10,11 @@ new_hash = {}
   new_hash
 end
 
-def get_japanese_emoticon
+def get_japanese_emoticon(emoticons, emoticon)
   # code goes here
-  emoticons_hash = YAML.load_file(emoticons)
+  #emoticons_hash = YAML.load_file(emoticons)
+  sorry_message = "Sorry, that emoticon was not found"
+  emoticons_hash = load_library(emoticons)
 end
 
 def get_english_meaning(emoticons, japanese_emoticon)
