@@ -17,11 +17,14 @@ end
 
 def get_english_meaning(emoticons, japanese_emoticon)
   # code goes here
+  sorry_message = "Sorry, that emoticon was not found"
   emoticons_hash = load_library(emoticons)
   emoticons_hash.find do |name, hash|
     #binding.pry
     if hash[:japanese] == japanese_emoticon
      return name
+   else
+     return sorry_message
     end
   end
 end
