@@ -23,8 +23,9 @@ def get_english_meaning(emoticons, japanese_emoticon)
     #binding.pry
     if hash[:japanese] == japanese_emoticon
      return name
-   else
-     sorry_message
+   #else
+    # sorry_message
     end
+    sorry_message
   end
 end
