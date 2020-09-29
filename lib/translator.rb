@@ -19,7 +19,7 @@ def get_english_meaning(emoticons, japanese_emoticon)
   # code goes here
   emoticons_hash = load_library(emoticons)
   emoticons_hash.find do |name, hash|
-    #binding.pry
+    binding.pry
     if name == emoticons_hash["happy"][:japanese][japanese_emoticon]
       name
     end
